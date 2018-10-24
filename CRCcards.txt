@@ -1,0 +1,39 @@
+
+Vending Machine
+
+add product							Product
+provide product
+select a product
+verify product availability
+make payment						        Cash
+verify payment
+abort transaction
+add payment to cash box					        Cash Box
+set cash box back to zero
+give cash back
+display price							Customer
+display message
+send message							Operator
+changes status
+check status
+
+Product
+
+get name
+get price
+
+Operator
+
+restock products						Product
+empty cash box						        Cash Box
+
+
+Cash
+calculate total payment
+
+
+Cash Box
+
+set the amount of coins					        Cash
+
+

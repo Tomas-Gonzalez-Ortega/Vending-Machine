@@ -1,0 +1,64 @@
+TEST CASES
+
+A)  Run a transaction 
+Precondition : Machine fully operative
+Customer makes a purchase
+Result : the machine vends a product
+Cash box coins amount updates by the payment of the product
+Product goes down by the product quantity.
+Check status
+The machine goes back to Stand by ready for a new transaction
+
+B)  Sold out product was selected
+Precondition : Machine has products that is out of stock
+Customer selects a product that is out of stock
+Displays a message
+Goes back to stand by status
+
+C)  Transaction aborted
+Precondition : Machine fully operative
+Customer selects a product and then aborts
+Result : the machine gives the cash back
+The machine goes back to Stand by ready for a new transaction
+No update on the Cash Box nor the product quantity
+
+D)  Product available as last product before transaction
+Precondition : Machine fully operative
+Customer makes a transaction
+Result : the machine vends a product
+Cash box coins amount updates by the payment of the product
+Product reaches out of stock
+Check status
+Change status
+The machine sends a message to the operator for restocking
+The machine display a message of out of order
+
+E)  Cash box becomes full after transaction 
+Precondition : cash box  almost full
+Customer makes a purchase
+Result : the machine vends a product
+Cash box coins amount updates and reaches the limit
+Product goes down by the product quantity.
+Check status
+Change status
+The machine sends a message to the operator for emptying cash box
+The machine display a message of out of order
+
+
+
+
+F)  Operator empties cash box
+Precondition: cash box full
+Operator gets message
+Operator empties the cash box
+The cash box is reseted
+Change status to waiting for another transaction
+
+
+
+G) Operator stocks products
+Precondition: products not available 
+Operator gets message
+Operator restock the products
+Product quantity gets updated
+Change status to waiting for another transaction

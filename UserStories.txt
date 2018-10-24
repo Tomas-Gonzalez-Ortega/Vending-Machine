@@ -1,0 +1,19 @@
+As a customer
+I want to buy a product
+So, I can eat or drink
+
+As a customer
+I want to abort a transaction
+So I can retrieve my money back
+
+As a seller
+I want to sell products through a vending machine
+So, I can make profit
+
+As an operator
+I want to restock the vending machine 
+So, it can keep selling products
+
+As an operator
+I want to empty the cash box
+So, it can keep selling products
